@@ -1,5 +1,5 @@
 {
-    "name": "SKY-FILTER-HD",
+    "name": "Filterbot1",
     "description": "SKY-FILTER-HD with Url Shortner",
     "stack": "container",
     "logo": "https://te.legra.ph/file/b4eeb216aeeb8fef74e3c.jpg",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/Vinarasan55/SKY-FILTER-HD",
-    "repository": "https://github.com/Vinarasan55/SKY-FILTER-HD",
+    "website": "https://github.com/Tokyo42/Filterbot1",
+    "repository": "https://github.com/Tokyo42/Filterbot1",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
