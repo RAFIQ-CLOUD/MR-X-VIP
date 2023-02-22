@@ -109,8 +109,8 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🍁ɢʀᴏᴜᴩ🍁", url="https://t.me/+VhOfQGTNYsthZjM1"),
-            InlineKeyboardButton("⚡ᴄʜᴀɴɴᴇʟ⚡", url="https://t.me/movie_zone_oficial")
+            InlineKeyboardButton("🍁ɢʀᴏᴜᴩ🍁", url="https://t.me/+ZPO7zXgZU945ZGNl"),
+            InlineKeyboardButton("⚡ᴄʜᴀɴɴᴇʟ⚡", url="https://t.me/MS_LinkZzzz")
         ]
     )
 
@@ -124,7 +124,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/howtodownloadlinkk/6"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/How_to_Download_TnLinkk/7"),]
 )
     if n_offset == 0:
         btn.append(
@@ -702,13 +702,13 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton("🍁ɢʀᴏᴜᴩ🍁", url="https://t.me/+VhOfQGTNYsthZjM1"),
-            InlineKeyboardButton("⚡ᴄʜᴀɴɴᴇʟ⚡", url="https://t.me/movie_zone_oficial")
+            InlineKeyboardButton("🍁ɢʀᴏᴜᴩ🍁", url="https://t.me/+ZPO7zXgZU945ZGNl"),
+            InlineKeyboardButton("⚡ᴄʜᴀɴɴᴇʟ⚡", url="https://t.me/MS_LinkZzzz")
         ]
     )
     
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/howtodownloadlinkk/6"),]
+    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/How_to_Download_TnLinkk/7"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
@@ -757,7 +757,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n⚡𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 - 𝚂𝙺𝚈 𝙼𝙾𝚅𝙸𝙴𝚂 𝙷𝙳"
+        cap = f"Rᴇǫᴜᴇsᴛᴇᴅ ᴍᴏᴠɪᴇ ɴᴀᴍᴇ : <code>{search}</code>\n\n\n🔗 Join : @MS_LinkZzzz 🔗"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
