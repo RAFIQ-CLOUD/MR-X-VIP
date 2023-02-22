@@ -124,7 +124,7 @@ async def next_page(bot, query):
     # How to Download button
    
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/How_to_Download_TnLinkk/7"),]
+    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/How_to_Download_TnLinkk/7"),]
 )
     if n_offset == 0:
         btn.append(
@@ -708,7 +708,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     
     btn.append(
-    [InlineKeyboardButton("🍃 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ 🍃", url="https://t.me/How_to_Download_TnLinkk/7"),]
+    [InlineKeyboardButton("🤔𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗🤔", url="https://t.me/How_to_Download_TnLinkk/7"),]
 )
     if offset != "":
         key = f"{message.chat.id}-{message.id}"
