@@ -443,13 +443,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⇄ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴩꜱ⇄', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ', url='https://t.me/+VhOfQGTNYsthZjM1'),
-            InlineKeyboardButton('🥰ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/+rs4CPTFXPjs5Yzhl')
+            InlineKeyboardButton('🍃ɢʀᴏᴜᴩ', url='https://t.me/+ZPO7zXgZU945ZGNl'),
+            InlineKeyboardButton('🥰ᴜᴩᴅᴀᴛᴇꜱ', url='https://t.me/MS_LinkZzzz')
         ], [
             InlineKeyboardButton('🛠️ʜᴇʟᴩ', callback_data='help'),
             InlineKeyboardButton('📝ᴀʙᴏᴜᴛ', callback_data='about')
         ], [
-            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/movie_zone_oficial')
+            InlineKeyboardButton('▷ꜱᴜᴩᴩᴏʀᴛ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ◁', url='https://t.me/MS_LinkZzzz')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
