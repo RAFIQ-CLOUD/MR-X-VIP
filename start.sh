@@ -1,10 +1,10 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/Tokyo42/Filterbot1.git /Filterbot1
+  git clone https://github.com/MS-BOTZZZ/Vip2.git /Vip2
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /Filterbot1
+  git clone $UPSTREAM_REPO /Vip2
 fi
 cd /Filterbot1
 pip3 install -U -r requirements.txt
