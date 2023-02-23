@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://te.legra.ph/file/9918ff1d61164e4804c90.jpg" alt="𝙷𝙱">
+  <img src="https://telegra.ph/file/036456b01d6e42f924baf.jpg" alt="MS">
 </p>
 <h1 align="center">
-  <b> 𝙷𝙱 </b>
+  <b> MS </b>
 </h1>
 
 
