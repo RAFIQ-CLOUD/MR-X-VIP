@@ -75,7 +75,7 @@ URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'KPSLink.in')
 URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', 'c7a3bdec55f75f6eecf7e91da34a004c7a0276be')
 
      # Auto Delete For Group Message (Self Delete) #
-SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 250))
+SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 1000))
 SELF_DELETE = environ.get('SELF_DELETE', True)
 if SELF_DELETE == "True":
     SELF_DELETE = True
@@ -86,6 +86,6 @@ DOWNLOAD_TEXT_URL = "https://t.me/How_to_Download_TnLinkk/7"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
-CAPTION_BUTTON_URL = "https://t.me/MS_LinkZzzz"
+CAPTION_BUTTON_URL = "https://t.me/ViP_LinkzZ"
 
    # Auto Delete For Bot Sending Files #
